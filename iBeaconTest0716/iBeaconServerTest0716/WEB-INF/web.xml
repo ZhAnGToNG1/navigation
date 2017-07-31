@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="false">
+   <!-- 告诉Tomcat来管理Servlet类  
+     <servlet>
+   		<servlet-name>HelloServlet</servlet-name>
+   		<servlet-class>com.naviTest.service.Location</servlet-class>
+   		<init-param>
+   			<param-name>encoding</param-name>
+   			<param-value>GBK</param-value>
+   		</init-param>
+   </servlet>   -->
+   <!-- 向外暴露该servlet类的一个资源名称，供外界直接访问，该资源名称必须以斜线开头 
+   
+   <servlet-mapping>
+   		<servlet-name>HelloServlet</servlet-name>
+   		<url-pattern>/post/addPlace</url-pattern>
+   </servlet-mapping>  -->
+   
+    <!--
+   <servlet>
+   		<servlet-name>RegisterServlet</servlet-name>
+   		<servlet-class>com.zero._05_register.RegisterServlet</servlet-class>
+   		<init-param>
+   			<param-name>encoding</param-name>
+   			<param-value>GBK</param-value>
+   		</init-param>
+   </servlet>
+    -->
+   
+   <!-- 向外暴露该servlet类的一个资源名称，供外界直接访问，该资源名称必须以斜线开头  -->
+   <!--
+   <servlet-mapping>
+   		<servlet-name>RegisterServlet</servlet-name>
+   		<url-pattern>/reg</url-pattern>
+   </servlet-mapping>
+     -->
+</web-app>

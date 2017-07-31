@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="iBeaconServerTest0716/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="iBeaconServerTest0716/WEB-INF/lib/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="lib" path="iBeaconServerTest0716/WEB-INF/lib/mongo-java-driver-3.4.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="iBeaconServerTest0716/WEB-INF/lib/mongo-java-driver-3.4.2.jar" sourcepath="C:/Users/tong/Desktop/mongo-java-driver-3.4.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tong/Desktop/mongo-java-driver-3.4.2-sources.jar"/>
+	<classpathentry kind="output" path="iBeaconServerTest0716/WEB-INF/classes"/>
+</classpath>
